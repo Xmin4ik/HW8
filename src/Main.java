@@ -8,7 +8,8 @@ public class Main {
         int clientDeviceYear = 2013;
         findClientOS(clientOs, clientDeviceYear);
         System.out.println("Задача №3");
-        howLong();
+        int distance = 20;
+        howLong(distance);
     }
 
     private static void whatYear(int year) {
@@ -36,8 +37,8 @@ public class Main {
         }
     }
 
-    private static int howLong() {
-        int deliveryDistance = 95;
+    private static int howLong(int distance) {
+       int deliveryDistance = distance ;
         if (deliveryDistance < 20) {
             System.out.println("Потребуется дней: 1 день");
         }
