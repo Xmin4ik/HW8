@@ -38,16 +38,16 @@ public class Main {
     }
 
     private static int howLong(int deliveryDistance) {
-       int days = 0;
+        int days = 0;
         if (deliveryDistance < 20) {
-           days = 1;
+            days = 1;
         }
         if (deliveryDistance >= 20 && deliveryDistance < 60) {
             days = 2;
         }
         if (deliveryDistance >= 60 && deliveryDistance < 100) {
             days = 3;
-                }
+        }
         return days;
     }
 }
